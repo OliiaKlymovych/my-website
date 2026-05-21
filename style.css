@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(247, 231, 113);
+    text-align: center;
+}
+h1 {
+color: rgb(80, 2, 2);
+text-transform: uppercase;
+}
+.about {
+    color: rgb(221, 104, 202);
+}
+.card {
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: transform 0.5s ease-in-out; 
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.card img {
+width: 100%;
+}
+#phone-link{
+    color: rgba(15, 84, 116, 0.747);
+}
+.email-info{
+    color: blue;
+}
+.status.active{
+    color: red;
+}
+div span{
+    color: orchid;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+h2{
+    transition: color 0.3s ease-in-out;
+}
+h2:hover{
+    color: crimson;
+}
